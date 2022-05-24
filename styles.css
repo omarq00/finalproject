@@ -1,0 +1,39 @@
+body{
+    background-color: lightslategrey;
+}
+.center_text{
+    text-align: center;
+    color:wheat;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    color:black;
+    width: 275px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left:150px;
+    margin-top: 20px;;
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.829);
+}
+.boldr{
+    font-weight: bolder;
+    color:red;
+}
+.bold{
+    font-weight: bolder;
+}
+a{
+    background-color: gray;
+    color:white;
+    font-size: 18px;
+    margin: 5px;
+    padding:20px;
+    border-radius: 20px;
+    outline: 10px;
+}
+h3{
+    text-align: center;
+}

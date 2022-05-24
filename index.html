@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Drum pad online</title>
+</head>
+
+<body>
+   <a href="index.html" class="boldr">Drum pad</a>
+   <a href="about.html">About page</a>
+   <a href="contact.html">Contact</a>
+    <h1 class="center_text" >Online drum pad</h1>
+    <h3>Just hit the buttons how you would want to hear them. There is no wrong way to play, The only thing stopping you is yourself. </h3>
+
+     <div id="sound"></div>
+     
+    <button onclick="hi_hatc_click()" class="bold"  > hi hat(closed)</button>
+    <button onclick= "hi_hato_click()" class="bold" >hi hat(open)</button>
+    <button onclick= "crash_click()" class="bold" >crash</button>
+    <button onclick= "ride_click()" class="bold" > ride</button>
+    <button onclick="snare_click()" class="bold"> snare</button>   
+    <button onclick= "bassdrum_click()" class="bold" >bass drum</button>   
+    <button onclick= "floortom_click()" class="bold" >floor tom</button>
+    <button onclick= "ridebell_click()" class="bold" >ride bell</button>
+
+
+
+
+
+
+    <script>
+      var snare = new Audio("snare.wav");
+      var hihatc = new Audio("hihatc.wav");
+      var hihato = new Audio("hihato.wav");
+      var crash = new Audio("crash.wav");
+      var ride = new Audio("ride.wav");
+      var ridebell = new Audio("ridebell.wav");
+      var floortom = new Audio("floortom.wav");
+      var bassdrum = new Audio("bassdrum.wav");
+
+
+   function hi_hatc_click() {
+      hihatc.currentTime=0;
+      hihatc.play();
+   }
+
+   function snare_click(){
+      snare.currentTime=0;
+      snare.play();
+   }
+
+   function crash_click(){
+      crash.currentTime=0;
+      crash.play();
+   }
+   function hi_hato_click(){
+      hihato.currentTime=0;
+      hihato.play();
+   }
+   function ride_click(){
+      ride.currentTime=0;
+      ride.play();
+   }
+   function ridebell_click(){
+      ridebell.currentTime=0;
+      ridebell.play();
+   }
+   function floortom_click(){
+      floortom.currentTime=0;
+      floortom.play();
+   }
+   function bassdrum_click(){
+      bassdrum.currentTime=0;
+      bassdrum.play();
+   }
+  </script>
+</body>
+</html>
